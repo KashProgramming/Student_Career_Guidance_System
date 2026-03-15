@@ -2,6 +2,8 @@
 
 A comprehensive machine learning system designed to predict campus placement success, estimate expected salaries, and provide actionable career guidance for students. This project integrates a FastAPI backend, a Streamlit frontend, and a complete MLOps pipeline for continuous training and drift monitoring.
 
+🚀 Live Demo: [Student Career Guidance System](https://huggingface.co/spaces/KashishM/Student_Career_Guidance_System)
+
 ## Key Features
 
 ### Machine Learning Engine
@@ -111,3 +113,10 @@ If drift is detected (PSI > 0.2), you can run `retrain_on_drift.py` to update th
 
 ## CI/CD
 See .github/workflows/mlops.yml for the GitHub Actions pipeline and ci_cd/README.md for details.
+
+## 🤝 Contributing
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
