@@ -28,7 +28,7 @@ jobs:
           python -m pip install ruff
 
       - name: Lint (syntax)
-        run: ruff check . --select F
+        run: ruff check . --select F --fix
 
       - name: Validate dataset schema
         run: python -m ml_pipeline.data_validation --data-version v1
